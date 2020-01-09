@@ -7,3 +7,20 @@
   width: 33.33%;
   padding: 5px;
 }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+  height: 300px;
+  width: auto;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
